@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+
+@font-face {
+	font-family: "font1";
+	src: url("../fonts/alkdots-webfont.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/alkdots-webfont.eot?#iefix") format("embedded-opentype"),
+		/* IE6-IE8 */ url("../fonts/alkdots-webfont.woff2") format("woff2"),
+		/* Super Modern Browsers */ url("../fonts/alkdots-webfont.woff")
+			format("woff"),
+		/* Pretty Modern Browsers */ url("../fonts/alkdots-webfont.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */
+			url("../fonts/alkdots-webfont.svg#alkdotsregular") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: "font2";
+	src: url("../fonts/RubikVinyl-Regular.woff2") format("woff2"),
+		url("../fonts/RubikVinyl-Regular.woff") format("woff"),
+		url("../fonts/RubikVinyl-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.rubik-vinyl-regular {
+	font-family: "Rubik Vinyl", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.constainer {
+	max-width: 1640px;
+	width: 90%;
+	margin: 0 auto;
+}
+header {
+	background-color: darkcyan;
+	padding: 20px;
+}
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+li {
+	/* border: 1px solid red; */
+}
+a {
+	/* border: 1px solid blue; */
+	font-family: "BPG DedaEna Block", sans-serif;
+}
+.logo {
+	font-family: "font1";
+}
+nav,
+nav li {
+	display: inline-block;
+}
+img {
+	width: 100%;
+}
+.image-wrapper p,
+.image-wrapper img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.image-wrapper img {
+	width: calc(100% - 450px);
+}
+
+.image-wrapper {
+	margin-bottom: 138px;
+}
+.image-wrapper p {
+	max-width: 400px;
+	width: 100%;
+}
+
+.articles {
+	max-width: 1640px;
+	width: 90%;
+	background-color: blueviolet;
+}
+
+.articles h2 {
+	font-family: "font2";
+	font-weight: 900;
+}
